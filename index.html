@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">video project</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                </ul>
+                <div class="d-flex">
+                    <a class="text-white" href="https://github.com/madhuri-chitikela/video-project">
+                        <img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png"
+                            alt="github icon" height=40>
+                        <span class="text-dark">View Code</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="pre-loader text-center">
+            <img src="preloader.gif" alt="preloader">
+        </div>
+        <header>
+            <div class="color-video">
+                <video class="video-container" muted loop autoplay>
+                    <source src="video.mp4" type="video/mp4">
+                </video>
+                <h1 class="text-center">video project</h1>
+                <button class="switch-btn btn btn-outline-primary btn-container">
+                    <span class="play-btn">
+                        <i class="bi bi-play"></i>
+                    </span>
+                    <span class="pause-btn">
+                        <i class="bi bi-pause"></i>
+                    </span>
+                    <span class="switch">
+                        <!--i class="bi bi-toggle-on"></i-->
+                    </span>
+                </button>
+            </div>
+        </header>
+    </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+    crossorigin="anonymous"></script>
+<script src="app.js"></script>
+
+</html>
